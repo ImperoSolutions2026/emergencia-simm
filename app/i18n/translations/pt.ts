@@ -381,24 +381,27 @@ export const pt: Dictionary = {
 
   newsletter: {
     badge: "Plantão SIMM",
-    title:
-      "Uma vez por semana. Direto ao ponto. O que você precisa saber para o próximo plantão.",
+    title: "Assine nossa Newsletter",
     subtitle:
-      "Sem enrolação. Sem teoria inútil. Sem spam. Só o que faz diferença na sala de emergência.",
+      "Receba semanalmente análises das mais recentes evidências envolvendo o mundo da Medicina de Emergência.",
     items: [
-      "Caso clínico da semana com raciocínio guiado",
       "Curadoria das principais revistas internacionais",
+      "Caso clínico da semana com raciocínio guiado",
       "Ferramenta ou score em destaque",
       "Recomendações de leitura além da medicina",
       "Novidades do ecossistema SIMM",
     ],
+    namePlaceholder: "Seu nome",
     placeholder: "Seu melhor email",
-    cta: "Quero receber o Plantão SIMM",
+    phonePlaceholder: "Seu telefone / WhatsApp",
+    cta: "Assinar a Newsletter",
+    sending: "Enviando...",
     social:
       "+8.500 médicos já recebem. Grátis. Cancele quando quiser.",
     successTitle: "Você está dentro!",
     successText:
-      "Toda segunda-feira, direto na sua caixa de entrada.",
+      "Toda semana, direto na sua caixa de entrada.",
+    errorText: "Não foi possível concluir. Tente novamente.",
   },
 
   scores: {

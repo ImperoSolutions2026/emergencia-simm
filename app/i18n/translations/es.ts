@@ -374,24 +374,27 @@ export const es: Dictionary = {
   },
   newsletter: {
     badge: "Plant\u00E3o SIMM",
-    title:
-      "Una vez por semana. Directo al punto. Lo que necesitas saber para la pr\u00F3xima guardia.",
+    title: "Suscr\u00EDbete a nuestra Newsletter",
     subtitle:
-      "Sin rodeos. Sin teor\u00EDa in\u00FAtil. Sin spam. Solo lo que hace la diferencia en la sala de emergencias.",
+      "Recibe cada semana an\u00E1lisis de la evidencia m\u00E1s reciente del mundo de la Medicina de Emergencia.",
     items: [
-      "Caso cl\u00EDnico de la semana con razonamiento guiado",
       "Curadur\u00EDa de las principales revistas internacionales",
+      "Caso cl\u00EDnico de la semana con razonamiento guiado",
       "Herramienta o score destacado",
       "Recomendaciones de lectura m\u00E1s all\u00E1 de la medicina",
       "Novedades del ecosistema SIMM",
     ],
+    namePlaceholder: "Tu nombre",
     placeholder: "Tu mejor correo electr\u00F3nico",
-    cta: "Quiero recibir el Plant\u00E3o SIMM",
+    phonePlaceholder: "Tu tel\u00E9fono / WhatsApp",
+    cta: "Suscribirme a la Newsletter",
+    sending: "Enviando...",
     social:
       "+8.500 m\u00E9dicos ya lo reciben. Gratis. Cancela cuando quieras.",
     successTitle: "\u00A1Ya est\u00E1s dentro!",
     successText:
-      "Cada lunes, directo a tu bandeja de entrada.",
+      "Cada semana, directo a tu bandeja de entrada.",
+    errorText: "No se pudo completar. Int\u00E9ntalo de nuevo.",
   },
   scores: {
     label: "Herramientas de Guardia \u00B7 Gratuito",

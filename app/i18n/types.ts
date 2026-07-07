@@ -130,11 +130,15 @@ export interface Dictionary {
     title: string;
     subtitle: string;
     items: string[];
+    namePlaceholder: string;
     placeholder: string;
+    phonePlaceholder: string;
     cta: string;
+    sending: string;
     social: string;
     successTitle: string;
     successText: string;
+    errorText: string;
   };
   scores: {
     label: string;

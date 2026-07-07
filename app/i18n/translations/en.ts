@@ -383,24 +383,27 @@ export const en: Dictionary = {
 
   newsletter: {
     badge: "Plant\u00E3o SIMM",
-    title:
-      "Once a week. Straight to the point. What you need to know for your next shift.",
+    title: "Subscribe to our Newsletter",
     subtitle:
-      "No fluff. No useless theory. No spam. Just what makes a difference in the emergency room.",
+      "Get weekly analyses of the latest evidence from the world of Emergency Medicine.",
     items: [
-      "Clinical case of the week with guided reasoning",
       "Curated highlights from leading international journals",
+      "Clinical case of the week with guided reasoning",
       "Featured tool or clinical score",
       "Reading recommendations beyond medicine",
       "News from the SIMM ecosystem",
     ],
+    namePlaceholder: "Your name",
     placeholder: "Your best email",
-    cta: "I want to receive Plant\u00E3o SIMM",
+    phonePlaceholder: "Your phone / WhatsApp",
+    cta: "Subscribe to the Newsletter",
+    sending: "Sending...",
     social:
       "+8,500 physicians already subscribe. Free. Cancel anytime.",
     successTitle: "You\u2019re in!",
     successText:
-      "Every Monday, straight to your inbox.",
+      "Every week, straight to your inbox.",
+    errorText: "Something went wrong. Please try again.",
   },
 
   scores: {
